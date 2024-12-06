@@ -11,7 +11,7 @@ const Register = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const { data } = await axios.post("http://localhost:4000/auth/register", formData);
+            const { data } = await axios.post("https://coding-assignment-m26o.onrender.com/auth/register", formData);
             console.log(data);
             localStorage.setItem("token", data.token);
             localStorage.setItem("user", JSON.stringify(data.user));

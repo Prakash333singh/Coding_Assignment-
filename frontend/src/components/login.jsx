@@ -13,7 +13,7 @@ const Login = ({ setIsLoggedIn }) => {
         e.preventDefault();
         try {
             // Make the API request
-            const { data } = await axios.post("http://localhost:4000/auth/login", { email, password });
+            const { data } = await axios.post("https://coding-assignment-m26o.onrender.com/auth/login", { email, password });
 
             // Log response for debugging
             console.log("Login Response:", data);
@@ -137,7 +137,7 @@ const Login = ({ setIsLoggedIn }) => {
                             <p className="text-sm font-light text-white dark:text-gray-400 ">
                                 Don’t have an account yet?{" "}
                                 <a
-                                    href="register"
+                                    href="/register"
                                     className="font-medium text-primary-600 hover:underline dark:text-primary-500 text-xl"
                                 >
                                     Register
