@@ -1,3 +1,9 @@
+# My Project
+
+Here is a demo of my project:
+
+[![Watch the video]([https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://www.youtube.com/watch?v=XRUGJKP6K4Y&feature=youtu.be))
+
 # User Registration API
 
 This project provides an API for user registration with validation, password hashing, and JWT authentication. The API includes validation for user input using Joi and uses MongoDB as the database to store user details.
